@@ -52,7 +52,7 @@ Run the packaged Java application using:
 ```bash
 java -jar target/hello-ivolve-1.0-SNAPSHOT.jar
 ```
-![Run](https://github.com/Ibrahim-Adel15/Lab2-Demo/blob/main/screenshots/run.PNG)
+![Run](https://github.com/EmanElshahat/DevopsTasks/blob/9394125863ccc3262592be3de5283a4e788a9526/build-tools/lab1/screenshots/p6.png)
 
 ---
 ## Summary
