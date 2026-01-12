@@ -38,7 +38,7 @@ Package the project into a JAR file using Gradle:
 ```bash
 gradle build
 ```
-![Build](https://github.com/Ibrahim-Adel15/Lab2-Demo/blob/main/screenshots/package.PNG)
+![Build](https://github.com/EmanElshahat/DevopsTasks/blob/4d28c474655e8080d3ed20294aa9909dcc807b35/build-tools/lab1/screenshots/p4.png)
 
 ## Step 5: View the tree 
 ```bash
