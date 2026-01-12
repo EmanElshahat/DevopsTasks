@@ -11,9 +11,9 @@ Clone the source code from GitHub:
 
 ```bash
 git clone https://github.com/Ibrahim-Adel15/build2.git
-cd build2
+cd build2 https://github.com/EmanElshahat/DevopsTasks.git
 ```
-![Repository Cloned](https://github.com/Ibrahim-Adel15/Lab2-Demo/blob/main/screenshots/clone.PNG))
+![Repository Cloned]( https://github.com/EmanElshahat/DevopsTasks/build-tools/lab1/blob/main/screenshots/p1.PNG))
 
 ## Step 2: Run Unit Test
 
