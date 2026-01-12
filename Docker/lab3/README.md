@@ -64,4 +64,4 @@ docker rm con1
 - -Expose port 8090.
 - Build the Docker image and run a container from it.
 - Test the application to ensure it works.
-- Stop and delete the container when done.
+- Stop and delete the container when done .
