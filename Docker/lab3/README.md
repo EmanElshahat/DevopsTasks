@@ -37,7 +37,7 @@ docker build -t lab3 .
 ## Step 4: Run the Docker Container
 Run a container from the image:
 ```bash
-docker run -d --name con1 -p 8090:8080 lab3
+docker run -d --name con1 -p 8090:8080 lab3 .
 ```
 ![Repository Cloned](https://github.com/EmanElshahat/DevopsTasks/blob/5d42a56943e9a0c908fe92d616e16105a24d2ba5/Docker/lab3/screenshots/p5.png)
 
