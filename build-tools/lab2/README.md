@@ -37,7 +37,7 @@ Package the project into a JAR file using Gradle:
 ```bash
 mvn package
 ```
-![Build](https://github.com/EmanElshahat/DevopsTasks/blob/4d28c474655e8080d3ed20294aa9909dcc807b35/build-tools/lab1/screenshots/p4.png)
+![Build](https://github.com/EmanElshahat/DevopsTasks/blob/fd9bb56d4c4cda7c61b650720e45983536353547/build-tools/lab2/screenshots/p2.png)
 
 ## Step 5: View the tree 
 Run the tree command to see folder structure:
