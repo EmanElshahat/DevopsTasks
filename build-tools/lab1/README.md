@@ -8,9 +8,9 @@ In this lab, we will learn how to build, test, and package a Java application us
 - Linux
 - Docker
 ## Steps & Commands
-git clone https://github.com/Ibrahim-Adel15/build1.git  , [Show Image](screenshots/p1.png)
+git clone https://github.com/Ibrahim-Adel15/build1.git 
 
-cd build1
+cd build1 , [Show Image](screenshots/p1.png)
 
 gradle -v
 
