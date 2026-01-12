@@ -8,7 +8,7 @@ In this lab, we will build, test, and package a Java application using **Maven**
 - Git
 - Linux 
 
-## Steps & Screenshots
+## Steps & Commands
 git clone https://github.com/Ibrahim-Adel15/build2.git 
 
 cd build1
