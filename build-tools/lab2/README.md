@@ -52,7 +52,7 @@ Run the packaged Java application using:
 ```bash
 java -jar build/libs/ivolve-app.jar
 ```
-![Run](https://github.com/EmanElshahat/DevopsTasks/blob/9394125863ccc3262592be3de5283a4e788a9526/build-tools/lab1/screenshots/p6.png)
+![Run](https://github.com/EmanElshahat/DevopsTasks/blob/a77bfd8f197286a6408bd35a3dd65aa318f6870f/build-tools/lab2/screenshots/p4.png)
 
 ---
 ## Summary
