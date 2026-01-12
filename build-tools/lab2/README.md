@@ -57,15 +57,15 @@ java -jar build/libs/ivolve-app.jar
 ---
 ## Summary
 
-The full workflow of using Maven in this project:
+-The full workflow of using Maven in this project:
 
-Install Maven and verify the installation.
+-Install Maven and verify the installation.
 
-Clone the repository from GitHub.
+-Clone the repository from GitHub.
 
-Run unit tests to verify functionality.
+-Run unit tests to verify functionality.
 
-Build the JAR artifact with Maven.
+-Build the JAR artifact with Maven.
 
-Run the application using the Java runtime.
-- Run the application using the Java runtime.
+-Run the application using the Java runtime.
+
