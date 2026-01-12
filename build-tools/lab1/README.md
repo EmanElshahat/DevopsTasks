@@ -1,23 +1,54 @@
-# Lab 1
-## Objective
-In this lab, we will learn how to build, test, and package a Java application using **Gradle**, and verify that it works correctly.
-## Tools
-- Java 
-- Gradle
-- Git
-- Linux
-- Docker
-## Steps & Commands
-git clone https://github.com/Ibrahim-Adel15/build1.git 
+## Lab1
+# Build Tools with Gradle
 
-cd build1 , [Show Image](screenshots/p1.png)
+In this lab, we will learn how to build, test, and package a Java application using *Gradle*, and verify that it works correctly.
 
-gradle -v , [Show Image](screenshots/p2.png)
+---
 
-gradle test , [Show Image](screenshots/p3.png)
+## Step 1: Clone the Repository
 
-gradle build , [Show Image](screenshots/p4.png)
+Clone the source code from GitHub:
 
-tree  , [Show Image](screenshots/p5.png)
+```bash
+git clone https://github.com/Ibrahim-Adel15/build2.git
+cd build2
+```
+![Repository Cloned](https://github.com/Ibrahim-Adel15/Lab2-Demo/blob/main/screenshots/clone.PNG))
 
-java -jar build/libs/ivolve-app.jar  , [Show Image](screenshots/p6.png)
+## Step 2: Run Unit Test
+
+Execute the unit tests for the project:
+
+```bash
+mvn test
+```
+![unit_test](https://github.com/Ibrahim-Adel15/Lab2-Demo/blob/main/screenshots/test.PNG)
+
+## Step 3: Build the Project
+
+Package the project into a JAR file using Maven:
+
+```bash
+mvn package
+```
+![Build](https://github.com/Ibrahim-Adel15/Lab2-Demo/blob/main/screenshots/package.PNG)
+
+## Step 4: Run the Application
+
+Run the packaged Java application using:
+
+```bash
+java -jar target/hello-ivolve-1.0-SNAPSHOT.jar
+```
+![Run](https://github.com/Ibrahim-Adel15/Lab2-Demo/blob/main/screenshots/run.PNG)
+
+---
+
+## Summary
+
+The full workflow of using Maven in this project:
+
+- Clone the repository from GitHub.
+- Run unit tests to verify functionality.
+- Build the JAR artifact with Maven.
+- Run the application using the Java runtime.
