@@ -41,6 +41,7 @@ gradle build
 ![Build](https://github.com/EmanElshahat/DevopsTasks/blob/4d28c474655e8080d3ed20294aa9909dcc807b35/build-tools/lab1/screenshots/p4.png)
 
 ## Step 5: View the tree 
+Run the tree command to see folder structure:
 ```bash
 Tree
 ```
