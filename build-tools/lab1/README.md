@@ -10,7 +10,7 @@ Check Gradle version :
 ```bash
 gradle -v
 ```
-![Repository Cloned](https://github.com/EmanElshahat/DevopsTasks/blob/ae7ed8bfded7622060b4190b353173bce73e0557/build-tools/lab1/screenshots/p2.png)
+![Install](https://github.com/EmanElshahat/DevopsTasks/blob/ae7ed8bfded7622060b4190b353173bce73e0557/build-tools/lab1/screenshots/p2.png)
 
 ## Step 2: Clone the Repository
 
