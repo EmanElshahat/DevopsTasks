@@ -11,7 +11,7 @@ Clone the source code from GitHub:
 
 ```bash
 git clone https://github.com/Ibrahim-Adel15/build2.git
-cd build2 https://github.com/EmanElshahat/DevopsTasks.git
+cd build2
 ```
 ![Repository Cloned](https://github.com/EmanElshahat/DevopsTasks/blob/1f0eafcccb9ee9cdf5f243e78ba694a0ce708231/build-tools/lab1/screenshots/p1.png)
 
