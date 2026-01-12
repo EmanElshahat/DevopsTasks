@@ -12,12 +12,12 @@ git clone https://github.com/Ibrahim-Adel15/build1.git
 
 cd build1 , [Show Image](screenshots/p1.png)
 
-gradle -v
+gradle -v , [Show Image](screenshots/p2.png)
 
-gradle test
+gradle test , [Show Image](screenshots/p3.png)
 
-gradle build
+gradle build , [Show Image](screenshots/p4.png)
 
-tree
+tree  , [Show Image](screenshots/p5.png)
 
-java -jar build/libs/ivolve-app.jar
+java -jar build/libs/ivolve-app.jar  , [Show Image](screenshots/p6.png)
