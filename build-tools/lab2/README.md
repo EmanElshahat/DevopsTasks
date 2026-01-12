@@ -44,7 +44,7 @@ Run the tree command to see folder structure:
 ```bash
 Tree
 ```
-![view](https://github.com/EmanElshahat/DevopsTasks/blob/c8db945f7f3fe39a23c37f6cf7d1b2fab2b0d63f/build-tools/lab1/screenshots/p5.png)
+![view](https://github.com/EmanElshahat/DevopsTasks/blob/7fd7b04756e6baff6d526c747ae771aad817d965/build-tools/lab2/screenshots/p3.png)
 ## Step 6: Run the Application
 
 Run the packaged Java application using:
