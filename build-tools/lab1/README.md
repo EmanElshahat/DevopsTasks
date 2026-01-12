@@ -29,7 +29,7 @@ Execute the unit tests for the project:
 ```bash
 gradle test
 ```
-![unit_test](https://github.com/Ibrahim-Adel15/Lab2-Demo/blob/main/screenshots/test.PNG)
+![unit_test](https://github.com/EmanElshahat/DevopsTasks/blob/9352fbe88649fed6198019f82b6c5c78bff80fee/build-tools/lab1/screenshots/p3.png)
 
 ## Step 4: Build the Project
 
