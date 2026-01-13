@@ -24,7 +24,7 @@ mvn package
 ![Bulid](https://github.com/EmanElshahat/DevopsTasks/blob/ccbe9f884284c60e650971f8780a60adb8ce889c/Docker/lab4/screenshots/p2.png)
 
 The JAR file will be generated at:
-![jar-file](https://github.com/EmanElshahat/DevopsTasks/blob/5d42a56943e9a0c908fe92d616e16105a24d2ba5/Docker/lab3/screenshots/p3.png)
+![jar-file](https://github.com/EmanElshahat/DevopsTasks/blob/6ec656d3b41289cb38927cd65beb948c471f406b/Docker/lab4/screenshots/jar.png)
 
 ## Step 3: Write Dockerfile
 Create a Dockerfile using Java 17 base image:
