@@ -56,7 +56,7 @@ Test the application using browser or curl:
 ```bash
 curl http://localhost:8092
 ```
-![test].(https://github.com/EmanElshahat/DevopsTasks/blob/ccbe9f884284c60e650971f8780a60adb8ce889c/Docker/lab4/screenshots/p6.png)
+![test](https://github.com/EmanElshahat/DevopsTasks/blob/ccbe9f884284c60e650971f8780a60adb8ce889c/Docker/lab4/screenshots/p6.png)
 ## Step 7: Stop and Delete the Container
 Stop and remove the container:
 
