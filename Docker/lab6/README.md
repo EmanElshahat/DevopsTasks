@@ -48,6 +48,7 @@ Create an environment file:
 vim env
 ```
 env file:
+
 ![env](https://github.com/EmanElshahat/DevopsTasks/blob/23cb2eba17b3098a15fd9759b57b5fa04ba8b7dd/Docker/lab6/screenshots/p5.png)
 ## Step 6: Run the container using the env file & Test:
 ```bash
@@ -82,5 +83,4 @@ curl localhost:8072
 - Defining variables inside the Dockerfile using ENV
 - Built a Python Flask application inside a Docker container.
 - Ran multiple containers from the same image with different configurations.
-Tested, stopped, and removed all containers successfully.
 
