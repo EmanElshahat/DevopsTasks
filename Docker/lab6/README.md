@@ -1,9 +1,9 @@
 # Lab6
 ## Managing Docker Environment Variables Across Build and Runtime
 In this lab, we will learn how to manage environment variables in Docker at different stages:
-At runtime using command line
-Using an environment file
-Inside the Dockerfile itself
+- At runtime using command line
+- Using an environment file
+- Inside the Dockerfile itself
 
 ---
 
