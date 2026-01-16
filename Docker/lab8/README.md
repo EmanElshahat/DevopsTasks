@@ -97,12 +97,13 @@ Stop and remove containers
 docker stop front1 front2 back
 docker rm front1 front2 back
 ```
+![delete](https://github.com/EmanElshahat/DevopsTasks/blob/aa4f36e34eb22e351168a7a28d822c7ef651dc4c/Docker/lab8/screenshots/p13.png)
 
 then Delete the custom Docker network:
 ```bash
 docker network rm ivolve-network
 ```
-![delete](https://github.com/EmanElshahat/DevopsTasks/blob/aa4f36e34eb22e351168a7a28d822c7ef651dc4c/Docker/lab8/screenshots/p13.png)
+![delete](https://github.com/EmanElshahat/DevopsTasks/blob/aa4f36e34eb22e351168a7a28d822c7ef651dc4c/Docker/lab8/screenshots/p14.png)
 
 ## Summary
 - Created separate Docker images for frontend and backend services.
