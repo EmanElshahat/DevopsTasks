@@ -67,14 +67,12 @@ Run the first frontend container using the same custom network:
 ```bash
 docker run -d --name front1 --network ivolve-network -p 5001:500 front-im
 ```
-![run](https://github.com/EmanElshahat/DevopsTasks/blob/aa4f36e34eb22e351168a7a28d822c7ef651dc4c/Docker/lab8/screenshots/p10.png)
-
 Run a second frontend container using the default bridge network:
 
 ```bash
 docker run -d --name front2 -p 5002:500 front-im
 ```
-![run](https://github.com/EmanElshahat/DevopsTasks/blob/aa4f36e34eb22e351168a7a28d822c7ef651dc4c/Docker/lab8/screenshots/p11.png)
+![run](https://github.com/EmanElshahat/DevopsTasks/blob/aa4f36e34eb22e351168a7a28d822c7ef651dc4c/Docker/lab8/screenshots/p10.png)
 
 ## Step 9: Verify Communication Between Containers
 frontend1 can communicate with backend using the container name:
@@ -83,7 +81,7 @@ frontend1 can communicate with backend using the container name:
 docker exec -it front1 sh
 curl http://back:5000
 ```
-![verify](https://github.com/EmanElshahat/DevopsTasks/blob/aa4f36e34eb22e351168a7a28d822c7ef651dc4c/Docker/lab8/screenshots/p12.png)
+![verify](https://github.com/EmanElshahat/DevopsTasks/blob/aa4f36e34eb22e351168a7a28d822c7ef651dc4c/Docker/lab8/screenshots/p11.png)
 
 frontend2 cannot communicate with backend using container name:
 
@@ -91,7 +89,7 @@ frontend2 cannot communicate with backend using container name:
 docker exec -it front2 sh
 curl http://back:5000
 ```
-![verify](https://github.com/EmanElshahat/DevopsTasks/blob/aa4f36e34eb22e351168a7a28d822c7ef651dc4c/Docker/lab8/screenshots/p13.png)
+![verify](https://github.com/EmanElshahat/DevopsTasks/blob/aa4f36e34eb22e351168a7a28d822c7ef651dc4c/Docker/lab8/screenshots/p12.png)
 
 ## Step 10: Delete Custom Docker Network
 Stop and remove containers
@@ -104,7 +102,7 @@ then Delete the custom Docker network:
 ```bash
 docker network rm ivolve-network
 ```
-![delete](https://github.com/EmanElshahat/DevopsTasks/blob/aa4f36e34eb22e351168a7a28d822c7ef651dc4c/Docker/lab8/screenshots/p14.png)
+![delete](https://github.com/EmanElshahat/DevopsTasks/blob/aa4f36e34eb22e351168a7a28d822c7ef651dc4c/Docker/lab8/screenshots/p13.png)
 
 ## Summary
 - Created separate Docker images for frontend and backend services.
