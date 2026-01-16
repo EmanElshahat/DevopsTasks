@@ -18,7 +18,7 @@ Create directories on the host machine to be used as a bind mount:
 ```bash
 mkdir -p nginx-bind/html
 ```
-![creat](https://github.com/EmanElshahat/DevopsTasks/blob/1cd0559ae7030c141d65c0d7a2ba4ea74f309bd2/Docker/lab7/screenshots/p2.png)
+![creat](https://github.com/EmanElshahat/DevopsTasks/blob/7800fdc03cbfb3911f62c6153fa34f2c0126247b/Docker/lab7/screenshots/p2.png)
 
 ## Step 3: Create Custom HTML File
 Create an index.html file inside the bind mount directory:
@@ -27,7 +27,7 @@ Create an index.html file inside the bind mount directory:
 echo "Hello from Bind Mount” > nginx-bind/html/index.html
 cat nginx-bind/html/index.html
 ```
-![index.html](https://github.com/EmanElshahat/DevopsTasks/blob/1cd0559ae7030c141d65c0d7a2ba4ea74f309bd2/Docker/lab7/screenshots/p2.2.png)
+![index.html](https://github.com/EmanElshahat/DevopsTasks/blob/7800fdc03cbfb3911f62c6153fa34f2c0126247b/Docker/lab7/screenshots/p2.2.png)
 
 ## Step 4: Run Nginx Container with Volume and Bind Mount & Verify Nginx Page
 Run the Nginx container with:
