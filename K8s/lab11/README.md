@@ -19,7 +19,7 @@ kubectl create quota pop-test --hard=pops=2 -n ivovle --dry-run=client -o yaml
 ![quotafile](https://github.com/EmanElshahat/DevopsTasks/blob/67265892148410266bad3ea922afb04fe55d6e79/K8s/lab11/screenshots/p2.png)
 
 
-## Step 3: Apply the ResourceQuota & Verify the Resource Quota
+## Step 3: Apply the Resource Quota & Verify the Resource Quota
 Check the applied quotas in the namespace:
 ```bash
 kubectl apply -f quota.yaml
