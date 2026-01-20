@@ -8,7 +8,7 @@ Create a namespace called ivolve:
 ```bash
 kubectl create ns ivolve
 ```
-![create]
+![create].(https://github.com/EmanElshahat/DevopsTasks/blob/67265892148410266bad3ea922afb04fe55d6e79/K8s/lab11/screenshots/p1.png).
 
 ## Step 2: Apply a Resource Quota
 Create a ResourceQuota YAML file (quota.yaml) to limit the number of pods to 2:
