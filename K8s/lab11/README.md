@@ -8,27 +8,25 @@ Create a namespace called ivolve:
 ```bash
 kubectl create ns ivolve
 ```
-![create].(https://github.com/EmanElshahat/DevopsTasks/blob/67265892148410266bad3ea922afb04fe55d6e79/K8s/lab11/screenshots/p1.png).
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/67265892148410266bad3ea922afb04fe55d6e79/K8s/lab11/screenshots/p1.png)
 
 ## Step 2: Apply a Resource Quota
 Create a ResourceQuota YAML file (quota.yaml) to limit the number of pods to 2:
 ```bash
+kubectl create quota pop-test --hard=pops=2 -n ivovle --dry-run=client -o yaml
 
 ```
-![quotafile]
+![quotafile](https://github.com/EmanElshahat/DevopsTasks/blob/67265892148410266bad3ea922afb04fe55d6e79/K8s/lab11/screenshots/p2.png)
 
-Apply the ResourceQuota:
-```bash
-kubectl apply -f quota.yaml
-```
-![apply]
 
-## Step 3: Verify the Resource Quota
+## Step 3: Apply the ResourceQuota & Verify the Resource Quota
 Check the applied quotas in the namespace:
 ```bash
+kubectl apply -f quota.yaml
 kubectl get resourcequota -n ivolve
 ```
-![verify]
+![verify](https://github.com/EmanElshahat/DevopsTasks/blob/67265892148410266bad3ea922afb04fe55d6e79/K8s/lab11/screenshots/p3.png)
+
 
 ## Step 4: Test the Pod Limit
 Try creating 3 pods in the ivolve namespace:
@@ -38,14 +36,16 @@ Try creating 3 pods in the ivolve namespace:
 kubectl run pod1 --image=nginx -n ivolve
 kubectl run pod2 --image=nginx -n ivolve
 ```
-![succesfully]
+![succesfully](https://github.com/EmanElshahat/DevopsTasks/blob/67265892148410266bad3ea922afb04fe55d6e79/K8s/lab11/screenshots/p4.png)
+
 - The 3rd pod will fail with an error:
 
 ```bash
 kubectl run pod3 --image=nginx -n ivolve
 ```
 
-![fail]
+![fail](https://github.com/EmanElshahat/DevopsTasks/blob/67265892148410266bad3ea922afb04fe55d6e79/K8s/lab11/screenshots/p5.png)
+
 
 ## Summary
 - Created a namespace ivolve in Kubernetes.
