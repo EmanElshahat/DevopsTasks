@@ -27,7 +27,7 @@ We need to store sensitive credentials in a Secret. Kubernetes requires Base64 e
 ```bash
 echo -n "ivolve_password" | base64
 ```
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/c7f26f4ec4691a6f80d7f4a82ba46bf7af8ebc44/K8s/lab12/screenshots/p3.png)
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/00b3649f447f0b1a243d1f189ea730ffc4cb3c99/K8s/lab12/screenshots/Screenshot%202026-01-20%20045733.png)
 
 ## Step 3: Create Secret for MySQL Credentials
 Sensitive data to store:
