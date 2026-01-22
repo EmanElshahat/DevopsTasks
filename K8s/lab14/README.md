@@ -15,3 +15,17 @@ kubectl get secret mysql-secret
 ```
 ## Step 2: Create Headless Service
 File: `mysql-headless-svc.yaml`
+
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysql
+spec:
+  clusterIP: None
+  selector:
+    app: mysql
+  ports:
+    - port: 3306
+      name: mysql
+```
