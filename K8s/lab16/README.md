@@ -34,7 +34,7 @@ kubectl get pods -n ivolve
 
 ![create](https://github.com/EmanElshahat/DevopsTasks/blob/e55b9d80b52cc9d891af87ae7c2c12d82b4f9aba/K8s/lab16/screenshots/Screenshot%202026-01-26%20011904.png)
 
-## Step 4:Manually Verify Database and User
+## Step 4: Manually Verify Database and User
 Connect to the MySQL pod:
 
 ```bash
