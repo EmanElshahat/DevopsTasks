@@ -1,0 +1,8 @@
+piVersion: v1
+data:
+  DB_PASSWORD: cGFzczEyMw==
+  MYSQL_ROOT_PASSWORD: cGFzczEyMw==
+kind: Secret
+metadata:
+  name: ivolve-s
+  namespace: ivolve
