@@ -4,7 +4,7 @@ In this lab, we deploy a Node.js application on Kubernetes using a Deployment an
 
 # Prerequisites 
 - Docker image pushed to Docker Hub : emanabosamra/kubernets-app:latest .
-- ConfigMap , Secret and Persistent Volume (PV) already exist.
+- ConfigMap `ivolve-cm` , Secret `ivolve-s` and Persistent Volume (PV) `app-logs-pvc` already exist.
 
 ## Step 1: Create Deployment
 Create file `deployment.yaml` : 
