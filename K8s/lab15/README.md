@@ -21,6 +21,8 @@ kubectl apply -f deployment.yaml
 kubectl get deployment -n ivolve
 kubectl get pods -n ivolve
 ```
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/fe778f2e17e284ca4580498a1931e14d7e5f1c7f/K8s/lab15/screenshots/Screenshot%202026-01-25%20035203.png)
+
 ## Step 3: Create ClusterIP Service
 Create file `service.yaml` :
 ```bash
@@ -35,6 +37,7 @@ kubectl apply -f service.yaml
 ```bash
 kubectl get svc nodejs-service -n ivolve
 ```
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/fe778f2e17e284ca4580498a1931e14d7e5f1c7f/K8s/lab15/screenshots/Screenshot%202026-01-25%20035539.png)
 
 ## Summary
 
