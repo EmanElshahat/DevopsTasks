@@ -20,7 +20,7 @@ Apply the updated deployment YAML file.
 ```bash
 kubectl apply -f deployment.yaml
 ```
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/8f09bf71f97b1a8230406619202f4d865b91a330/K8s/lab17/screenshots/Screenshot%202026-01-27%20163805.png)
 
 ## Step 3: Verify Pod Status
 Ensure the pods are running successfully.
@@ -39,7 +39,7 @@ Monitor CPU and memory usage of the pod.
 ```bash
 kubectl top pod -n ivolve
 ```
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/8f09bf71f97b1a8230406619202f4d865b91a330/K8s/lab17/screenshots/Screenshot%202026-01-27%20174439.png)
 ## sumaary
 In this lab, we learned how to:
 - Configure CPU and memory requests and limits for Kubernetes Pods
