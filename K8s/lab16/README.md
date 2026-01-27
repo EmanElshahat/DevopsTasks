@@ -19,7 +19,7 @@ kubectl get cm -n ivolve
 kubectl get secret -n ivolve
 ```
 
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/e55b9d80b52cc9d891af87ae7c2c12d82b4f9aba/K8s/lab16/screenshots/Screenshot%202026-01-26%20010818.png)
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/356cb5bb863d6e3ad2d7d95dffe6cb837da509ef/K8s/lab16/screenshots/3.png)
 
 ## Step 2: Modify Node.js Deployment to Add Init Container
 Edit the existing Node.js Deployment and add an init container.
