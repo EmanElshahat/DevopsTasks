@@ -38,15 +38,14 @@ kubectl get pods -n ivolve
 Connect to the MySQL pod:
 
 ```bash
-kubectl exec -it <mysql-pod-name> -n ivolve -- mysql -u root -p
+kubectl exec -it mysql-0 -n ivolve -- mysql -u ivolve_user -p
 ```
 Inside MySQL shell:
 
 ```bash
 SHOW DATABASES;
-USE ivolve;
-SHOW GRANTS FOR 'appuser'@'%';
 ```
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/e55b9d80b52cc9d891af87ae7c2c12d82b4f9aba/K8s/lab16/screenshots/Screenshot%202026-01-26%20011904.png)
 ## Summary
 - Added an init container to prepare the database before application startup
 - Used MySQL client image for database initialization
