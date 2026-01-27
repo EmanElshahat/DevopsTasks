@@ -32,7 +32,7 @@ kubectl apply -f deployment.yaml
 kubectl get pods -n ivolve
 ```
 
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/e55b9d80b52cc9d891af87ae7c2c12d82b4f9aba/K8s/lab16/screenshots/Screenshot%202026-01-26%20011904.png)
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/d04efe716c2ff7042568432c6b2dbcc098d54dd2/K8s/lab16/screenshots/1.png)
 
 ## Step 4: Manually Verify Database and User
 Connect to the MySQL pod:
@@ -45,7 +45,7 @@ Inside MySQL shell:
 ```bash
 SHOW DATABASES;
 ```
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/e55b9d80b52cc9d891af87ae7c2c12d82b4f9aba/K8s/lab16/screenshots/Screenshot%202026-01-26%20011904.png)
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/d04efe716c2ff7042568432c6b2dbcc098d54dd2/K8s/lab16/screenshots/2.png)
 ## Summary
 - Added an init container to prepare the database before application startup
 - Used MySQL client image for database initialization
