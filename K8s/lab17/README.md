@@ -18,28 +18,30 @@ Edit the existing ذnodejs-appذ Deployment and add CPU and memory requests and 
 Apply the updated deployment YAML file.
 
 ```bash
-kubectl apply -f deployment.yaml
+kubectl apply -f nodejs-deployment.yaml
 ```
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/8f09bf71f97b1a8230406619202f4d865b91a330/K8s/lab17/screenshots/Screenshot%202026-01-27%20163805.png)
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/45d8290965f40650aebce35fe583ef9b3d7d588a/K8s/lab17/screenshots/1.png)
 
 ## Step 3: Verify Pod Status
 Ensure the pods are running successfully.
 ```bash
 kubectl get pods -n ivolve
 ```
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/45d8290965f40650aebce35fe583ef9b3d7d588a/K8s/lab17/screenshots/2.png)
 ## Step 4: Verify Resource Requests and Limits
 Describe the pod to confirm CPU and memory settings are applied.
 Ensure the pods are running successfully.
 ```bash
-kubectl describe pod mysql-5c684dc7d4-4fzxx -n ivolve
+kubectl describe pod nodejs-app-fdfcb6ff7-f94sc -n ivolve
 ```
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/45d8290965f40650aebce35fe583ef9b3d7d588a/K8s/lab17/screenshots/3.png)
 
 ## Step 5: Monitor Real-Time Resource Usage
 Monitor CPU and memory usage of the pod.
 ```bash
-kubectl top pod -n ivolve
+kubectl top pod nodejs-app-fdfcb6ff7-f94sc -n ivolve
 ```
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/8f09bf71f97b1a8230406619202f4d865b91a330/K8s/lab17/screenshots/Screenshot%202026-01-27%20174439.png)
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/45d8290965f40650aebce35fe583ef9b3d7d588a/K8s/lab17/screenshots/4.png)
 ## sumaary
 In this lab, we learned how to:
 - Configure CPU and memory requests and limits for Kubernetes Pods
