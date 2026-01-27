@@ -31,7 +31,7 @@ kubectl get pods -n ivolve
 Describe the pod to confirm CPU and memory settings are applied.
 Ensure the pods are running successfully.
 ```bash
-kubectl describe pod <pod-name> -n ivolve
+kubectl describe pod mysql-5c684dc7d4-4fzxx -n ivolve
 ```
 
 ## Step 5: Monitor Real-Time Resource Usage
