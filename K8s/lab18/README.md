@@ -10,7 +10,7 @@ kubectl get pods -n ivolve --show-labels
 ![verify](https://github.com/EmanElshahat/DevopsTasks/blob/788b97a9e805ae71b48df703ca0fb8a376b06d5f/K8s/lab18/screenshots/1.png)
 
 ## Step 2: Create NetworkPolicy
-Create a file named `networkpolicy.yaml` 
+Create a file named [Network Policy YAML](networkpolicy.yaml)
 
 ## Step 3: Apply the NetworkPolicy
 ```bash
