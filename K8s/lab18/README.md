@@ -7,7 +7,7 @@ Make sure all resources are running in the same namespace:
 ```bash
 kubectl get pods -n ivolve --show-labels
 ```
-![verify](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
+![verify](https://github.com/EmanElshahat/DevopsTasks/blob/788b97a9e805ae71b48df703ca0fb8a376b06d5f/K8s/lab18/screenshots/1.png)
 
 ## Step 2: Create NetworkPolicy
 Create a file named `networkpolicy.yaml` 
@@ -16,14 +16,14 @@ Create a file named `networkpolicy.yaml`
 ```bash
 kubectl apply -f networkpolicy.yaml
 ```
-![verify](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
+![verify](https://github.com/EmanElshahat/DevopsTasks/blob/788b97a9e805ae71b48df703ca0fb8a376b06d5f/K8s/lab18/screenshots/2.png)
 
 ## Step 4: Verify NetworkPolicy
 ```bash
 kubectl get networkpolicy -n ivolve
 kubectl describe networkpolicy allow-app-to-mysql -n ivolve
 ```
-![verify](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
+![verify](https://github.com/EmanElshahat/DevopsTasks/blob/788b97a9e805ae71b48df703ca0fb8a376b06d5f/K8s/lab18/screenshots/3.png)
 
 ## Summary
 - Created a NetworkPolicy to control pod-to-pod traffic.
