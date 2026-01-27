@@ -7,8 +7,8 @@ The init container connects to MySQL, creates the ivolve database, and creates a
 - Kubernetes cluster running
 - MySQL already deployed (StatefulSet or Deployment)
 - ConfigMap and Secret created:
-  ConfigMap: `ivolve-cm`
-  Secret: `ivolve-s`
+  ConfigMap: `mysql-config `
+  Secret: `mysql-secret`
 - Namespace: `ivolve`
 
 ## Step 1: Verify ConfigMap and Secret
