@@ -46,4 +46,5 @@ In this lab, we learned how to:
 - Understand the difference between resource requests and limits
 - Verify resource configuration using kubectl describe
 - Monitor real-time resource usage using kubectl top
+
 Proper resource management is essential for maintaining cluster stability and ensuring optimal application performance.
