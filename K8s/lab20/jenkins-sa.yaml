@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  creationTimestamp: "2026-01-28T01:32:41Z"
+  name: jenkins-sa
+  namespace: ivolve
+  resourceVersion: "40900"
+  uid: fb291a75-dd92-43e0-965c-026e4f819707
