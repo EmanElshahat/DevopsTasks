@@ -10,7 +10,7 @@ In this lab, we will configure role-based access control in Jenkins by creating 
 Role-Based Authorization Strategy
 - Install the plugin and restart Jenkins
 - 
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
+![Role](https://github.com/EmanElshahat/DevopsTasks/blob/7d92e710f1401a886221cb0d5bcd8684aa5fd306/Jenkins/lab21/screenshots/1.png)
 
 ## Step 2: Enable Role-Based Authorization
 - Manage Jenkins → Security
@@ -23,7 +23,7 @@ Manage Jenkins → Users → Create User
 - Create user2 (Read-Only User)
 Manage Jenkins → Users → Create User
 
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/7d92e710f1401a886221cb0d5bcd8684aa5fd306/Jenkins/lab21/screenshots/2.png)
 
 ## Step 4: Create Roles
 - Manage Jenkins → Manage and Assign Roles → Manage Roles
@@ -31,21 +31,21 @@ Manage Jenkins → Users → Create User
 Assign all available permissions.
 - Role Name: read-only
 Assign only some permissions
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/7d92e710f1401a886221cb0d5bcd8684aa5fd306/Jenkins/lab21/screenshots/3.png)
 
 ## Step 5: Assign Roles to Users
 Manage Jenkins → Manage and Assign Roles → Assign Roles
 
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/7d92e710f1401a886221cb0d5bcd8684aa5fd306/Jenkins/lab21/screenshots/4.png)
 
 ## Step 6: Verify Access
 Login as user1
 
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/7d92e710f1401a886221cb0d5bcd8684aa5fd306/Jenkins/lab21/screenshots/5.png)
 
 Login as user2
 
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/7d92e710f1401a886221cb0d5bcd8684aa5fd306/Jenkins/lab21/screenshots/6.png)
 
 ## Summary
 - Implemented role-based authorization in Jenkins.
