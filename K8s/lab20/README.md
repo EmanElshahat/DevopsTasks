@@ -44,10 +44,11 @@ kubectl auth can-i list pods --as=system:serviceaccount:ivolve:jenkins-sa -n ivo
 kubectl auth can-i delete pods --as=system:serviceaccount:ivolve:jenkins-sa -n ivolve
 ```
 ❌ Should return: no (cannot delete)
+
 ![Apply](https://github.com/EmanElshahat/DevopsTasks/blob/1052f681fd9e9fc7b28ad5a45ad725733368e9fd/K8s/lab20/screenshots/5.png)
 
 ## Summary
-- Created Service Account jenkins-sa[jenkins-sa](jenkins-sa.yaml) in ivolve namespace
+- Created Service Account [jenkins-sa](jenkins-sa.yaml) in ivolve namespace
 - Retrieved associated secret/token
 - Created a Role pod-reader with read-only permissions on Pods
 - Bound Role to ServiceAccount using RoleBinding `jenkins-pod-reader-binding`
