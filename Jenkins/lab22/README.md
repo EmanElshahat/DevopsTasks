@@ -9,13 +9,13 @@ cd Jenkins_App_Pipeline
 ```
 
 ## Step 2: Prepare Jenkinsfile
-Jenkinsfile is included in the repo.
+[Jenkinsfile](Jenkinsfile) is included in the repo.
 Docker Hub credential ID: docker-hub
 `Jenkinfike`
 
 ## Step 3: Deployment YAML
 
-`deployment.yaml` is included in the repo as a template.
+[deployment.YAML](deployment.yaml) is included in the repo as a template.
 
 ## Step 4: Configure Jenkins Pipeline
 - Go to Jenkins → New Item → Pipeline 
