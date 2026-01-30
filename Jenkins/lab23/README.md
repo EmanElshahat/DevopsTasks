@@ -11,7 +11,7 @@ In this lab, we will create a Jenkins Pipeline that automates the CI/CD process 
 
 ## Step 2: Configure Shared Library in Jenkins
 Added your private repository as a Shared Library In Jenkins:
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
+![sharedlib](https://github.com/EmanElshahat/DevopsTasks/blob/8d8ae4ec6699c8b0bfba90cf07992dcaa1bf5932/Jenkins/lab23/screenshots/Screenshot%202026-01-30%20223636.png)
 
 ## Step 3: Clone Application Repository
 
