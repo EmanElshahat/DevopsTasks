@@ -25,7 +25,7 @@ pipeline {
         stage('Scan Image') {
             steps {
                 echo 'Scanning Docker Image...'
-                sh "trivy image ${IMAGE_NAME}:${BUILD_NUMBER}"
+                sh "trivy image --timeout 10m ${IMAGE_NAME}:${BUILD_NUMBER}"
             }
         }
 
