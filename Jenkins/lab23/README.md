@@ -37,6 +37,6 @@ Use the shared library for reusable steps:
 
 ## Summary
 - Created a CI/CD pipeline in Jenkins using Shared Library.
-- Automated Maven build, Docker image build/push, image scanning with Trivy, and Kubernetes deployment.
+- Automated Maven build, Docker image build/push, image scanning, and Kubernetes deployment.
 - Post actions ensure messages are printed based on build result.
 - Shared Library enables reusability across multiple pipelines.
