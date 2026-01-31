@@ -32,7 +32,7 @@ Use the shared library for reusable steps:
 - Script Path → Jenkinsfil
 
 ## Step 6: Pipeline Execution 
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
+![Execution](https://github.com/EmanElshahat/DevopsTasks/blob/674486f315f9c5e05f09d887b568399d5bea4fe6/Jenkins/lab23/screenshots/Screenshot%202026-01-31%20024220.png)
 
 
 ## Summary
