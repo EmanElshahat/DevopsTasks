@@ -27,7 +27,7 @@ Docker Hub credential ID: docker-hub
   
 ## Step 5: Pipeline Execution
 
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/ecf2dccc562462bef65758e09ff41a6fe50d5b6d/Jenkins/lab22/screenshots/Screenshot%202026-01-29%20030346.png)
+![Execution](https://github.com/EmanElshahat/DevopsTasks/blob/6293919a0c5afe47daaaf45c2659647cdf15b39a/Jenkins/lab22/screenshots/Screenshot%202026-01-31%20025134.png)
 
 ## Summary
 - Created a full CI/CD pipeline in Jenkins.
