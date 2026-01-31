@@ -5,7 +5,7 @@ In this lab, we will create a Jenkins Pipeline that automates the CI/CD process 
 - Created a `private` GitHub repository for the shared library:
   https://github.com/EmanElshahat/jenkins-shared-lib.git
  - Added reusable Groovy scripts for:
-   1.  Test & Build App [testAndbuildApp.groovy](testAndbuildApp.groovy)
+   1.  Test & Build App [testAndBuildApp.groovy](testAndBuildApp.groovy)
    2.  Build & Push Docker Image [buildAndPushImage.groovy](buildAndPushImage.groovy)
    3.  Deploy to Kubernetes [deployK8s.groovy](deployK8s.groovy)
 
