@@ -27,7 +27,7 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 - App Name: jenkins-app
 - Project: default
 - Repository URL: `https://github.com/EmanElshahat/Jenkins_App_Pipeline.git`
-- Path: . (root of repo)
+- Path: . (root)
 - Cluster: `https://kubernetes.default.svc`
 - Namespace: ivolve
   
