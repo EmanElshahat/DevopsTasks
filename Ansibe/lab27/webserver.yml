@@ -1,0 +1,34 @@
+---
+- name: Configure Web Server using Ansible
+  hosts: web
+  become: yes
+  tasks:
+    - name: Install Nginx
+      apt:
+        name: nginx
+        state: present
+        update_cache: yes
+
+    - name: Start and enable Nginx service
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+    - name: Customize web page
+      copy:
+        dest: /var/www/html/index.html
+        content: |
+          <html>
+          <head>
+              <title>Ansible Web Server</title>
+          </head>
+          <body>
+              <h1>Welcome!</h1>
+              <h2>This web server is configured using Ansible </h2>
+          </body>
+          </html>
+        owner: www-data
+        group: www-data
+        mode: '0644'
+
