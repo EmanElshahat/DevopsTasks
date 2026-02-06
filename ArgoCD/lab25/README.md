@@ -15,10 +15,9 @@ In this lab, we will create a GitOps workflow using Jenkins for CI/CD and ArgoCD
 
 ## Step 2: Configure Jenkins Pipeline
 
-## Step 3: Pipeline Stages
+ [Jenkinsfile](Jenkinsfile)
 
-
-## Step 4: ArgoCD Configuration
+## Step 3: ArgoCD Configuration
 1. Install ArgoCD in Kubernetes cluster:
    
 ```bash
@@ -37,6 +36,16 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 
 ![create](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
 
-## Step 5: Validate Deployment
+## Step 4: Validate Deployment
+```bash
+kubectl get pods -n ivolve
+```
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
+
+## Summary
+- Created a GitOps workflow using Jenkins + ArgoCD.
+- Jenkins pipeline automates build, Docker image push, manifest update.
+- ArgoCD automatically deploys updates from Git repository.
+- Reusable shared library simplifies pipeline maintenance.
 
 
