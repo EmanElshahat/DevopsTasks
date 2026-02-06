@@ -14,7 +14,7 @@ Verified installation:
 ```bash
 ansible --version
 ```
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
+![Install](https://github.com/EmanElshahat/DevopsTasks/blob/cb73fb6e93276cd915f13b12fc04b48c260af05b/Ansibe/lab26/screenshots/1.png)
 
 ## Step 2: Generate SSH Key on Control Node
 
@@ -22,14 +22,14 @@ Generated a new SSH key pair to enable passwordless authentication:
 ```bash
 ssh-keygen
 ```
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
+![Generate](https://github.com/EmanElshahat/DevopsTasks/blob/cb73fb6e93276cd915f13b12fc04b48c260af05b/Ansibe/lab26/screenshots/2.png)
 
 ## Step 3: Copy SSH Public Key to Managed Node
 Transferred the public key to the managed node to allow Ansible to connect via SSH:
 ```bash
 ssh-copy-id eman@192.168.6.128
 ```
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
+![Copy](https://github.com/EmanElshahat/DevopsTasks/blob/cb73fb6e93276cd915f13b12fc04b48c260af05b/Ansibe/lab26/screenshots/3.png)
 
 ## Step 4: Create Ansible Inventory File
 Created an inventory file to define the managed node:
@@ -45,14 +45,14 @@ Verified Ansible communication with the managed node:
 ```bash
 ansible -i inventory managed -m ping
 ```
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
+![Test](https://github.com/EmanElshahat/DevopsTasks/blob/cb73fb6e93276cd915f13b12fc04b48c260af05b/Ansibe/lab26/screenshots/4.png)
 
 ## Step 6: Execute Ad-Hoc Command (Check Disk Space)
 Used an ad-hoc command to check disk usage on the managed node:
 ```bash
 ansible -i inventory managed -m command -a "df -h"
 ```
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
+![Ad-Hoc](https://github.com/EmanElshahat/DevopsTasks/blob/cb73fb6e93276cd915f13b12fc04b48c260af05b/Ansibe/lab26/screenshots/5.png)
 
 ## Summary
 - Installed and configured Ansible on the control node.
