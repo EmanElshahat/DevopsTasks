@@ -11,7 +11,7 @@ In this lab, we will create a GitOps workflow using Jenkins for CI/CD and ArgoCD
 
 ## Step 1: Create Repository 
 
-`https://github.com/EmanElshahat/Jenkins_App_Pipeline.git`
+https://github.com/EmanElshahat/Jenkins_App_Pipeline.git
 
 ## Step 2: Configure Jenkins Pipeline
 
@@ -26,21 +26,21 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/st
 2. Create an application in ArgoCD:
 - App Name: jenkins-app
 - Project: default
-- Repository URL: https://github.com/<your-username>/lab25-gitops.git
+- Repository URL: `https://github.com/EmanElshahat/Jenkins_App_Pipeline.git`
 - Path: . (root of repo)
-- Cluster: https://kubernetes.default.svc
+- Cluster: `https://kubernetes.default.svc`
 - Namespace: ivolve
   
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/b6e355a70c42b9092cfbaa4e8e95c8d5861a5d92/ArgoCD/lab25/screenshots/1.png)
 3. Click Sync in ArgoCD UI to deploy the app.
 
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/b6e355a70c42b9092cfbaa4e8e95c8d5861a5d92/ArgoCD/lab25/screenshots/2.png)
 
 ## Step 4: Validate Deployment
 ```bash
 kubectl get pods -n ivolve
 ```
-![create](https://github.com/EmanElshahat/DevopsTasks/blob/547490d7b83942a022f53b1d12b0fe47061882e7/K8s/lab13/screenshots/p1.png)
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/b6e355a70c42b9092cfbaa4e8e95c8d5861a5d92/ArgoCD/lab25/screenshots/3.png)
 
 ## Summary
 - Created a GitOps workflow using Jenkins + ArgoCD.
