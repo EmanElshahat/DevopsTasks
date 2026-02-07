@@ -29,20 +29,20 @@ the file:  [Docker role](ansible/roles/docker/tasks/main.yml)
 ```bash
 nano roles/kubectl/tasks/main.yml
 ```
-the file:  [kubectl role](anasbile/roles/kubectl/tasks/main.yml)
+the file:  [kubectl role](ansible/roles/kubectl/tasks/main.yml)
 
 3. Jenkins role
 ```bash
 nano roles/jenkins/tasks/main.yml
 ```
-the file:  [Jenkins role](anasbile/roles/jenkins/tasks/main.yml)
+the file:  [Jenkins role](ansible/roles/jenkins/tasks/main.yml)
 
 ## Step 3: Create Main Playbook
 Create a main playbook to run all roles in order:
 ```bash
 nano site.yml
 ```
-the file:  [site.yml](site.yml)
+the file:  [site.yml](ansible/site.yml)
 
 ## Step 4: Run the Playbook
 Execute the playbook from the control node:
