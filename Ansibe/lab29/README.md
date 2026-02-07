@@ -4,6 +4,7 @@ In this lab, we automate MySQL installation and database configuration using Ans
 
 ## Step 1: Prepare Inventory
 Create an inventory file to define the managed node:
+
 file: [inventory](inventory)
 
 ## Step 2: Create Encrypted File Using Ansible Vault
