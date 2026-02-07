@@ -23,7 +23,7 @@ ansible-galaxy init jenkins
 ```bash
 nano roles/docker/tasks/main.yml
 ```
-the file:  [Docker role](anasbile/roles/docker/tasks/main.yml)
+the file:  [Docker role](https://github.com/EmanElshahat/DevopsTasks/blob/227f3d119aebf0a09bb2a0357f8b1af47030279e/Ansibe/lab28/ansible/roles/docker/tasks/main.yml)
 
 2. kubectl role
 ```bash
