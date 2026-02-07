@@ -1,0 +1,9 @@
+---
+- name: Setup Lab Environment
+  hosts: lab
+  become: true
+  roles:
+    - docker
+    - kubectl
+    - jenkins
+
