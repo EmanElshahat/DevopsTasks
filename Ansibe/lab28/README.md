@@ -10,7 +10,7 @@ Create an inventory file to define the managed node(s):
 192.168.6.128 ansible_user=eman ansible_become=yes
 ```
 
- [inventory](ansbile/inventory)
+ [inventory](ansible/inventory)
 
 ## Step 2: Create Ansible Roles
 Create separate roles for each component:
