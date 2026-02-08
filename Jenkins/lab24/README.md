@@ -41,6 +41,8 @@ kubectl create namespace prod
 2. Source → Git → Repository URL: https://github.com/EmanElshahat/Jenkins_App_Pipeline.git
 3. Branch Sources → Discover all branches (dev, stag, prod)
 4. Script Path → Jenkinsfile
+![create](https://github.com/EmanElshahat/DevopsTasks/blob/08bc24ef5d8e47632a757f0db9756cb4b106c466/Jenkins/lab24/screenshots/Screenshot%202026-02-08%20021114.png)
+
 
 ## Step 8: Execute Pipeline
 Make changes and push to any branch:
